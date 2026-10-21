@@ -1,3 +1,3 @@
 # eqdm
 
-A new Flutter project.
+This is a project to learn flutter and write my first real app.
