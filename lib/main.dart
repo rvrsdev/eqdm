@@ -11,9 +11,25 @@ class MainApp extends StatelessWidget {
   // context parameter provides access to runtime variables like screen size, ratio, font scaling etc.
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: Center(child: Text('eqdm - versatile music player!')),
+        appBar: AppBar(
+          // hex colors syntax - 0xff<red,green,blue>
+          backgroundColor: Color(0xFF252627),
+          title: Text("eqdm - an open source music player"),
+          centerTitle: true,
+          foregroundColor: Color(0xfffaf9f6),
+          // shape = border
+          shape: Border(bottom: BorderSide(width: 1, color: Color(0xfafaf9f6))),
+        ),
+        body: Center(
+          child: Text(
+            "Hello world!",
+            style: TextStyle(color: Color(0xfffaf9f6), fontSize: 55),
+          ),
+        ),
+        backgroundColor: Color(0xff131515),
       ),
     );
   }
