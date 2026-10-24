@@ -23,13 +23,8 @@ class MainApp extends StatelessWidget {
           // shape = border
           shape: Border(bottom: BorderSide(width: 1, color: Color(0xfafaf9f6))),
         ),
-        body: Center(
-          child: Text(
-            "Hello world!",
-            style: TextStyle(color: Color(0xfffaf9f6), fontSize: 55),
-          ),
-        ),
-        backgroundColor: Color(0xff131515),
+        body: Column(children: [const Icon(Icons.backpack)]),
+        // backgroundColor: Color(0xff131515),
       ),
     );
   }
