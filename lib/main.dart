@@ -23,7 +23,7 @@ class MainApp extends StatelessWidget {
           // shape = border
           shape: Border(bottom: BorderSide(width: 1, color: Color(0xfafaf9f6))),
         ),
-        body: Column(children: [const Icon(Icons.backpack)]),
+        body: Column(children: [const Icon(Icons.abc_sharp)]),
         // backgroundColor: Color(0xff131515),
       ),
     );
